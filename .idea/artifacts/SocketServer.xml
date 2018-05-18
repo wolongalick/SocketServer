@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SocketServer">
+    <output-path>$PROJECT_DIR$/out/artifacts/SocketServer</output-path>
+    <root id="archive" name="SocketServer.war">
+      <element id="artifact" artifact-name="SocketServer:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
